@@ -1,0 +1,50 @@
+
+body {
+  background: #9f0d0d;
+}
+
+h1, h2, h3, h4, h5 {
+  border-bottom: 1px solid #ccc;
+  color: #03040b;
+  padding-bottom: 10px
+}
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+  text-align: center;
+}
+
+.button {
+  background-color: pink;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.card {
+  background-color: grey;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  padding: 10px;
+  margin-bottom: 10px; ;
+}
+
+.listFlex {
+  display: flex; 
+  justify-content: center;
+}
+
+.profile-picture {
+  width: 250px;
+  border-radius: 50%;
+  padding: 5px;
+}
+.social{
+  height: 100px;
+  width: 100px;
+}
+@media () {
+  .container {
+  width: 500px;
+
+}
